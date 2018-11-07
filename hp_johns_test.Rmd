@@ -30,11 +30,12 @@ hp_graph <- hp_data %>%
   ggplot(aes(x = book, y = agg.per.mention)) +
   geom_col(aes(fill = Name), position = "dodge") +
   coord_flip() +
-  theme_bw()
+  theme_bw() +
+  labs(x = "books", y = "agression.rate")
 
 hp_graph
 
 ```
 
-
+I will be presenting a paper about the phylogenetic relaionships of leaf cell shape.
 
